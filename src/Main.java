@@ -54,6 +54,8 @@ public class Main {
 
                 case 3:
                     miDirectorio2 = new File("C:\\AD\\Ejercicios\\nuevoDirectorio");
+                    miFichero2 = new File("C:\\AD\\Ejercicios\\nuevoDirectorio\\miFichero2.txt");
+                    miFichero2.delete();
                     miDirectorio2.delete();
                     break;
 
