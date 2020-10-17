@@ -62,6 +62,10 @@ public class Main {
                 case 4:
                     System.out.println("FIN DEL PROGRAMA");
                     menu=false;
+                    break;
+
+                default:
+                    System.out.println("Opción incorrecta. Introduzca opción correcta");
             }
         }while(menu);
     }
